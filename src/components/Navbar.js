@@ -11,7 +11,7 @@ export default function Navbar() {
               <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-white mb-3">
               <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
               <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-             <a href="#intro" className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-purple-600">
+             <a href="/" className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-purple-600">
                 Seong-eun Kim
              </a>
              <button
@@ -22,19 +22,31 @@ export default function Navbar() {
               <i className="fas fa-bars"></i>
             </button>
             </div>
-                <a href="#projects" className="mr-5 hover:text-purple">
+            <div className={"lg:flex flex-grow items-center" + (navOpen ? "flex" : "hidden")}>
+                <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
+                    <li>
+                    <a href="#projects" className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75" >
                     WORK
-                </a>
-                <a href="#about" className="mr-5 hover:text-purple">
+                 </a>
+                    </li>
+                    <li>
+                    <a href="#about" className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75" >
                     ABOUT
-                </a>
-                <a href="#skills" className="mr-5 hover:text-purple">
+                 </a>
+                    </li>
+                    <li>
+                    <a href="#skills" className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75" >
                     SKILLS
-                </a>
-                <a href="#contact" className="mr-5 hover:text-purple">
+                 </a>
+                    </li>
+                    <li>
+                    <a href="#contact" className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75" >
                     CONTACT
-                </a>
-             
+                 </a>
+                    </li>
+                </ul>
+            </div>
+            
            
                 </div>
                
