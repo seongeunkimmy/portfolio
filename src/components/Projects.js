@@ -8,7 +8,9 @@ export default function Projects() {
         <section id="projects" className="text-gray-400 bg-gray-900 body-font my-10">
         <div className="px-3 py-10 mx-auto text-center lg:px-28">
         <div className="flex flex-col w-full mb-10">
-        <h1 className="sm:text-4xl text-3xl font-medium title-font mb-10 text-white">Projects</h1>
+        <Fade top duration={750} delay={500}>
+        <h1 className="sm:text-4xl text-3xl font-medium title-font mt-12 mb-10 text-white">Projects</h1>
+        </Fade>
       </div>
   
 
@@ -18,10 +20,10 @@ export default function Projects() {
               <div className="flex relative overflow-hidden">
                 <img
                   alt="gallery"
-                  className="absolute  my-6 inset-0 w-full h-96 object-cover object-center"
+                  className="absolute my-6 inset-0 w-full h-96 object-cover object-center"
                   src={project.image}
                 />
-                <div className="flex flex-col justify-center my-6 relative w-full h-96 border-4 border-gray-800 bg-gray-900 opacity-0 transform hover:scale-100 transition duration-1000 ease-in-out hover:opacity-100">
+                <div className="flex flex-col justify-center my-6 relative w-60 md:w-full h-96 border-4 border-gray-800 bg-gray-900 opacity-0 transform hover:scale-100 transition duration-500 ease-in-out hover:opacity-100">
                   <h2 className="tracking-widest text-md title-font font-medium text-indigo-400 mb-1">
                     {project.techStack}
                   </h2>
@@ -34,8 +36,8 @@ export default function Projects() {
               
               <Fade top duration={850} delay={500}>
               <div className="flex justify-center items-center">
-                <button className="px-5 py-3 border-2 mx-2 my-8 bg-transparent hover:bg-white text-gray-400 font-semibold hover:text-gray-500 border-2 border-white hover:border-transparent"><a href={project.link} target="_blank">VIEW LIVE</a></button>
-                <button className="px-5 py-3 border-2 mx-2 my-8 bg-transparent hover:bg-white text-gray-400 font-semibold hover:text-gray-500 border-2 border-white hover:border-transparent"><a href={project.code} target="_blank">VIEW CODE</a></button>
+                <button className="px-3 md:px-5 py-3 border-2 mx-2 my-8 bg-transparent hover:bg-white text-gray-400 font-semibold hover:text-gray-500 border-2 border-white hover:border-transparent"><a href={project.link} target="_blank">VIEW LIVE</a></button>
+                <button className="px-3 md:px-5 py-3 border-2 mx-2 my-8 bg-transparent hover:bg-white text-gray-400 font-semibold hover:text-gray-500 border-2 border-white hover:border-transparent"><a href={project.code} target="_blank">VIEW CODE</a></button>
               </div>
               </Fade>
               </div>

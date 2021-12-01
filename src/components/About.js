@@ -8,16 +8,16 @@ export default function About() {
          
          <div className="flex flex-col w-full mb-10">
          <Fade left duration={750} delay={500}>
-            <h1 className="sm:text-4xl text-3xl font-medium title-font mb-24 text-white">About Me</h1>
-            <div className="flex flex-row justify-center items-center"> 
-            <img src="images/about.jpg" alt="profile photo" className="w-72 h-80 mx-12 rounded-full"/>
-            <div className="w-72 flex flex-col mx-12">
+            <h1 className="sm:text-4xl text-3xl font-medium title-font mt-12 mb-24 text-white">About Me</h1>
+            <div className="flex flex-col md:flex-row justify-center items-center"> 
+            <img src="images/SEK.jpg" alt="profile photo" className="w-72 h-80 mx-12 rounded-full"/>
+            <div className="w-72 sm:w-1/2 flex flex-col mx-12 my-8 md:my-0">
             <span className="text-lg"> Hello World! 👋  </span>
             <span className="text-lg"> I am a Full-Stack Web Developer who is getting into coding more and more everyday. I love to make something new creatively out of the great curiosity.</span>
             <span className="text-lg mt-8"> Other than coding, I love making music, walking around and looking for something new and cool. </span>
             </div>
             </div>
-            <button className="mt-12 place-self-center w-38 bg-transparent hover:bg-purple-500 text-purple-400 font-semibold hover:text-white py-3 px-5 border-2 border-purple-600 hover:border-transparent">CV DOWNLOAD</button>
+           <a href="images/RESUME.pdf" download> <button className="mt-12 place-self-center w-38 bg-transparent hover:bg-purple-500 text-purple-400 font-semibold hover:text-white py-3 px-5 border-2 border-purple-600 hover:border-transparent">CV DOWNLOAD</button></a>
        
           </Fade>
         </div>

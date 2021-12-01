@@ -10,9 +10,9 @@ export default function Skills() {
         <Fade top duration={750} delay={500} distance="30px">
         <div className="flex flex-col w-full mb-10">
        
-            <h1 className="sm:text-4xl text-3xl font-medium title-font mb-10 text-white">Skills</h1>
+            <h1 className="sm:text-4xl text-3xl font-medium title-font mt-12 mb-10 text-white">Skills</h1>
         </div>
-        <div  className="grid grid-cols-3 justify-items-center">
+        <div  className="grid grid-cols-2 md:grid-cols-3 justify-center items-center">
             {skills.map((skills) => (
                 
                 <div key={skills} className="p-2 sm:w-1/2 w-full">

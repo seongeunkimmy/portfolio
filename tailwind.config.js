@@ -13,16 +13,18 @@ module.exports = {
                 opacity: '1',
                 transform: 'translateY(0)'
             },
-        }
-    },
+          }
+       
+        },
     animation: {
-        'fade-in-down': 'fade-in-down 1s ease-out'
+        'fade-in-down': 'fade-in-down 2s ease-out'
     }
+
     },
   },
   variants: {
     extend: {
-      animation: ["motion-safe"]
+      animation: ["hover"]
     },
   },
   plugins: [],
