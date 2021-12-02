@@ -25,6 +25,9 @@ export default function Contact() {
       body: encode({ "form-name": "contact", name, email, message }),
     })
       .then(() => alert("Message sent!"))
+      .then(() => {
+        e.target.reset();
+      })
       .catch((error) => alert(error));
   }
     return (
