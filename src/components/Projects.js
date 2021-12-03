@@ -36,8 +36,8 @@ export default function Projects() {
               
               <Fade top duration={850} delay={500}>
               <div className="flex justify-center items-center">
-                <button className="px-3 md:px-5 py-3 border-2 mx-2 my-8 bg-transparent hover:bg-white text-gray-400 font-semibold hover:text-gray-500 border-2 border-white hover:border-transparent"><a href={project.link} target="_blank">VIEW LIVE</a></button>
-                <button className="px-3 md:px-5 py-3 border-2 mx-2 my-8 bg-transparent hover:bg-white text-gray-400 font-semibold hover:text-gray-500 border-2 border-white hover:border-transparent"><a href={project.code} target="_blank">VIEW CODE</a></button>
+                <button className="px-3 md:px-5 py-3 border-2 mx-2 my-8 bg-transparent hover:bg-white text-gray-400 font-semibold hover:text-gray-500 border-2 border-white hover:border-transparent"><a href={project.link} target="_blank" rel="noreferrer">VIEW LIVE</a></button>
+                <button className="px-3 md:px-5 py-3 border-2 mx-2 my-8 bg-transparent hover:bg-white text-gray-400 font-semibold hover:text-gray-500 border-2 border-white hover:border-transparent"><a href={project.code} target="_blank" rel="noreferrer">VIEW CODE</a></button>
               </div>
               </Fade>
               </div>
@@ -52,22 +52,3 @@ export default function Projects() {
 }
 
 
-{/* <div className="w-full m-5 border-2 border-gray-800 bg-gray-900 ">
-<div className="flex relative overflow-hidden">
-<img src={project.image} className="z-2 w-full h-96 transform hover:scale-125 transition duration-1000 ease-out" />
-        <h2 className="absolute text-lg bold top-10 left-10 text-sm title-font font-medium text-green-400 mb-1">
-          {project.title}
-        </h2>
-        <div className="absolute w-full px-40 py-32 z-1 border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-        <h1 className="bottom-10 left-10 title-font text-lg font-medium text-white mb-3">
-          {project.techStack}
-        </h1>
-        <p className="bottom-10 left-10 text-center leading-relaxed">{project.description}</p>
-        
-      </div>
-</div>
-
-      <div>
-       
-      </div>
-      </div> */}
