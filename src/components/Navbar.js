@@ -15,14 +15,14 @@ function handleClick() {
 
              {/* // eslint-disable-next-line  */}
               <Fade top duration={750} delay={1200}>
-              <nav className="fixed flex flex-wrap items-center justify-between w-full px-4 md:px-8 py-6 bg-transparent md:py-0">
+              <nav className="fixed flex lg:flex-wrap items-center justify-between w-full px-4 md:px-8 py-6 bg-transparent md:py-0">
               <div>
-              <a href="/" className="text-5xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap text-purple-500">
+              <a href="/" className="text-3xl md:text-5xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap text-purple-500">
                 K.
              </a>
              </div>
           
-           <HiMenuAlt3 className="block text-3xl w-10 h-10 border-2 p-1" onClick={handleClick}/>
+           <HiMenuAlt3 className="block text-3xl w-8 md:w-10 h-8 md:h-10 border-2 p-1" onClick={handleClick}/>
            
             
             <div className={` ${isOpen ? "w-full block flex-grow" : "hidden"} `}>

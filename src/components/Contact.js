@@ -38,7 +38,7 @@ export default function Contact() {
             <h1 className="sm:text-4xl text-3xl font-medium title-font mt-12 mb-24 text-white">Contact</h1>
             <div className="flex flex-col md:flex-row">
             <div className="flex flex-col w-full md:w-1/2 justify-center items-center" >
-            <h2 className="text-indigo-300 text-4xl title-font font-medium mb-4">ANY QUESTIONS?</h2>
+            <h2 className="text-indigo-300 text-3xl md:text-4xl title-font font-medium mb-4">ANY QUESTIONS?</h2>
             <span className="text-xl ">Shoot me an email here! </span>
             <span className="text-xl ">Or fine me on the internet </span>
             <Fade left duration={1000} delay={750} >
