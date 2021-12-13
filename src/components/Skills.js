@@ -16,7 +16,7 @@ export default function Skills() {
             {skills.map((skills) => (
                 
                 <div key={skills} className="p-2 sm:w-1/2 w-full">
-                <div className="bg-transparent flex p-4 h-full items-center">
+                <div className="bg-transparent flex p-4 md:h-full items-center">
                 <RiCheckboxLine className="text-purple-400 w-8 h-8 flex-shrink-0 mr-4" />
                 <span className="text-xl title-font font-medium text-white">
                   {skills.tech}
