@@ -13,7 +13,7 @@ export default function Footer() {
       <a href="https://github.com/seongeunkimmy" target="_blank" rel="noreferrer"><FaGithub className="m-2 w-10 h-8 text-white text-3xl hover:animate-fade-in-down"/></a>
 
      </div>
-     <span>© 2022 Seong-eun Kim. All rights reserved.</span>
+     <span>© 2023 Seong-eun Kim. All rights reserved.</span>
  
      
         </div>
