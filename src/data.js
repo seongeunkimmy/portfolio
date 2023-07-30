@@ -6,7 +6,6 @@ export const projects = [
         techStack: "MongoDB | Express | React/Redux | Node",
         description: "A diary application built with the MERN stack that you can write your daily reflective journal.",
         image: "images/2.png", 
-        link: "https://vast-dusk-72231.herokuapp.com/",
         code: "https://github.com/seongeunkimmy/Meme-diary"
     },
     {

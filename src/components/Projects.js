@@ -36,7 +36,9 @@ export default function Projects() {
               
               <Fade top duration={850} delay={500}>
               <div className="flex justify-center items-center">
+              {project.link && (
                 <button className="px-3 md:px-5 py-3 border-2 mx-2 my-8 bg-transparent hover:bg-white text-gray-400 font-semibold hover:text-gray-500 border-2 border-white hover:border-transparent"><a href={project.link} target="_blank" rel="noreferrer">VIEW LIVE</a></button>
+              )}
                 <button className="px-3 md:px-5 py-3 border-2 mx-2 my-8 bg-transparent hover:bg-white text-gray-400 font-semibold hover:text-gray-500 border-2 border-white hover:border-transparent"><a href={project.code} target="_blank" rel="noreferrer">VIEW CODE</a></button>
               </div>
               </Fade>
