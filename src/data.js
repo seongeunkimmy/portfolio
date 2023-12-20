@@ -20,7 +20,7 @@ export const projects = [
         title: "This Portfolio", 
         techStack: "React | TailwindCSS",
         description: "Not much to say! This portfolio is to show what I have done so far. ",
-        image: "images/p.png", 
+        image: "images/1.png", 
         link: "https://seongeunkim.netlify.app/",
         code: "https://github.com/seongeunkimmy/portfolio"
     },
