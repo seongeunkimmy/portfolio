@@ -2,16 +2,16 @@
 
 export const skills = [
     {
-      tech: "HTML5"
-    },
-    {
-      tech: "CSS3"
+      tech: "HTML5/CSS3"
     },
     {
       tech: "Javascript"
     },
     {
-      tech: "ReactJS"
+      tech: "ReactJS/Redux"
+    },
+    {
+      tech: "VueJS/Pinia"
     },
     {
       tech: "NodeJS"
@@ -20,12 +20,13 @@ export const skills = [
        tech: "ExpressJS"
     },
     {
-    tech: "Redux"
-    },
-    {
      tech: "MongoDB"
     },
     {
+      tech: "Bootstrap"
+  },
+    {
         tech: "TailwindCSS"
-    }
+    },
+
 ]
