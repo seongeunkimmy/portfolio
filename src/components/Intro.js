@@ -11,7 +11,7 @@ export default function Intro() {
             <h1 className="title-font lg:text-6xl md:text-4xl mb-8 font-large text-white font-bold">Seong-eun Kim.</h1>
             </Fade>
             <Fade left duration={1000} delay={1000}>
-            <span className="w-2/4 mb-8 sm:text-sm md:text-1xl lg:text-2xl leading-relaxed">A Berlin-based full-stack web developer. I'm passionate about learning new things, making creative projects. </span>
+            <span className="w-2/4 mb-8 sm:text-sm md:text-1xl lg:text-2xl leading-relaxed">An inspiring full-stack web developer passionate about learning new things, making creative projects. </span>
             </Fade>
         </div>
  

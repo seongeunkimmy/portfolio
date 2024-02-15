@@ -2,6 +2,13 @@
 
 export const projects = [
     {
+        title: "DailyDive", 
+        techStack: "Python | Django | HTML/CSS | TensorFlow",
+        description: "DailyDive is a mental health care service that analyzes daily records and provides sentiment analysis.",
+        image: "images/6.png", 
+        code: "https://github.com/seongeunkimmy/dailydive"
+    },
+    {
         title: "forMe Diary", 
         techStack: "MongoDB | Express | React/Redux | Node",
         description: "A diary application built with the MERN stack that you can write your daily reflective journal.",
