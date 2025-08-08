@@ -17,7 +17,7 @@ export default function About() {
             <span className="text-lg mt-8"> Other than coding, I love making music, walking around and looking for something new and cool. </span>
             </div>
             </div>
-           <a href="images/RESUME(Seong-eun Kim).pdf" download> <button className="mt-12 place-self-center w-38 bg-transparent hover:bg-purple-500 text-purple-400 font-semibold hover:text-white py-3 px-5 border-2 border-purple-600 hover:border-transparent">CV DOWNLOAD</button></a>
+           {/* <a href="images/RESUME(Seong-eun Kim).pdf" download> <button className="mt-12 place-self-center w-38 bg-transparent hover:bg-purple-500 text-purple-400 font-semibold hover:text-white py-3 px-5 border-2 border-purple-600 hover:border-transparent">CV DOWNLOAD</button></a> */}
        
           </Fade>
         </div>
